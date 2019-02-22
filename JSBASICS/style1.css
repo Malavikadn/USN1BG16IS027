@@ -1,0 +1,11 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('pexels-photo-257540.jpeg');
+    height : 100vh;
+    background-size: cover;
+    background-position: center;
+}
