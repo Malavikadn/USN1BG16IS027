@@ -26,6 +26,7 @@ console.log(names);
 
 */
 //challenge2
+/*
 var tips;
 function calci(amount){
     if(amount<50){
@@ -45,7 +46,7 @@ var bill=[calci(124),calci(48),calci(268)];
 console.log('Bill='+bill);
 var final_amount=[bill[0]+124,bill[1]+48,bill[2]+268];
 console.log('Final amount='+final_amount);
-
+/*
 
 //object
 /*
@@ -71,3 +72,22 @@ shiva.firstName='manju';
 console.log(shiva);
 //
 console.log('malavika is '+myDetails.calcAge(1998)+'year old');*/
+
+//dom manupulation
+//onmouseover
+/*document.getElementById('btn').OnMouseOver=changeOnMouseOver;
+function changeOnMouseOver() {
+    var btn = document.getElementById('btn');
+    but.style.background="red";
+
+*/
+var but =document.getElementById('btn');
+but.addEventListener('mouseover',changeOnMouseOver);
+but.addEventListener('mouseout',changeOnMouseOut);
+function changeOnMouseOver() {
+    this.style.background="red";
+
+}function changeOnMouseOut() {
+    this.style.background="blue";
+    
+}
